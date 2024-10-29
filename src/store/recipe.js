@@ -56,7 +56,7 @@ export default {
 
             try {
                 const { data } = await axios.post(
-                    `https://vue-js-project-1-d2493-default-rtdb.firebaseio.com/recipes.json?auth=${rootState.auth.token}`, newData);
+                    `https://vue-js-project-c8990-default-rtdb.firebaseio.com//recipes.json?auth=${rootState.auth.token}`, newData);
                     
                     commit("setNewRecipe", { id: data.name, ...newData });
             } catch (err) {
