@@ -10,7 +10,7 @@ import RecipeFormHeader from "./RecipeFormHeader.vue"
 import RecipeFormBody from "./RecipeFormBody.vue"
 
 defineProps({
-    isEdit:{ type: Boolean, default: FileSystemWritableFileStream},
+    isEdit:{ type: Boolean, default: false},
         detailData: { type: Object, default: () => ({}) }
 })
 </script>
